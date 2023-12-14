@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Tracker Login</title>
+  <link rel="stylesheet" href="./login_style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Finance Tracker Login</h1>
+    <form action="" id="loginForm">
+      <<div class="inputBox">
+        <input type="text" id="username" placeholder="Username">
+    </div>
+
+
+    <div class="inputBox">
+        <input type="email" id="email" placeholder="Email">
+    </div>
+
+
+    <div class="inputBox">
+        <input type="password" id="password" placeholder="Password">
+    </div>
+
+
+    <div class="inputBox">
+        <button type="submit" id="submitButton">Log in</button>
+    </div>
+    <div class="inputBox">
+        <p>not yet registered? <a href="signup.html">Sign up</a></p>
+    </div>
+      <div class="alert" style="display: none;">Invalid credentials. Please try again.</div>
+      <input type="text" id="result">
+    </form>
+  </div>
+
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="./login.js"></script>
+</body>
+</html>

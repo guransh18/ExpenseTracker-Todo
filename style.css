@@ -1,0 +1,205 @@
+.money.plus {
+  color: #2ecc71;
+  font-size: 1.5em;
+}
+
+.money.minus {
+  color: #c0392b;
+  font-size: 1.5em;
+}
+
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+
+.delete-btn:focus {
+  outline: 0;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.list li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.btn {
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.chart-container {
+    width: 400px;
+    height: 400px;
+}
+
+.list li .date {
+  color: #3498db; 
+  margin-left: 10px; 
+}
+
+.list li .text {
+  color: #db3434; 
+}
+
+.todo-img{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+/* TodoList CSS From here */
+
+.custom-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+}
+
+.custom-container header {
+  text-align: center;
+}
+
+.custom-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.custom-container form {
+  display: flex;
+  gap: 10px;
+}
+
+.custom-container input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.custom-container button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-container button:hover {
+  background-color: #45a049;
+}
+
+.custom-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.custom-container li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.custom-container li button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-container li button:hover {
+  background-color: #d32f2f;
+}
+
+.custom-container .custom-completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+
+/* About Section */
+.about-section {
+    padding: 80px 0;
+}
+.feature-card {
+    text-align: center;
+}
+
+.feature-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* Pop Up Css */
+
+.custom-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-popup {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative; 
+}
+
+.custom-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
